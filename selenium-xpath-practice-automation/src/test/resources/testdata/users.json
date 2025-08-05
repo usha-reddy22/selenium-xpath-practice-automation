@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "email": "john.doe@example.com",
+      "password": "SecurePass123!",
+      "company": "Tech Solutions Inc",
+      "mobile": "9876543210",
+      "email2": "john.secondary@example.com",
+      "carPreference": "Audi"
+    },
+    {
+      "email": "jane.smith@example.com",
+      "password": "StrongPass456!",
+      "company": "Innovation Labs",
+      "mobile": "8765432109",
+      "email2": "jane.backup@example.com",
+      "carPreference": "BMW"
+    },
+    {
+      "email": "mike.wilson@example.com",
+      "password": "TestPass789!",
+      "company": "Quality Assurance Corp",
+      "mobile": "7654321098",
+      "email2": "mike.alt@example.com",
+      "carPreference": "Mercedes"
+    }
+  ]
+}

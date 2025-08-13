@@ -21,10 +21,10 @@ public class XPathPracticePage extends BasePage {
     @FindBy(id = "mobile")
     private WebElement mobileNumberField;
 
-    @FindBy(xpath = "//input[@name='']")
+    @FindBy(id = "//input[@name='']")
     private WebElement emailField2;
 
-    @FindBy(xpath = "//button[normalize-space()='Submit']")
+    @FindBy(id = "//button[normalize-space()='Submit']")
     private WebElement submitButton;
 
     // Checkboxes and Radio buttons

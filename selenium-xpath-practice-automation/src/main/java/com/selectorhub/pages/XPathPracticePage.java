@@ -21,7 +21,7 @@ public class XPathPracticePage extends BasePage {
     @FindBy(id = "mobile")
     private WebElement mobileNumberField;
 
-    @FindBy(xpath = "//input[@name='email']")
+    @FindBy(xpath = "//input[@name='']")
     private WebElement emailField2;
 
     @FindBy(xpath = "//button[normalize-space()='Submit']")
@@ -65,10 +65,10 @@ public class XPathPracticePage extends BasePage {
     private WebElement partialLinkTest;
 
     // Text elements
-    @FindBy(xpath = "//div[@id='userName']")
+    @FindBy(xpath = "//div[@id='userName'][2]")
     private WebElement userNameDisplay;
 
-    @FindBy(xpath = "//p[contains(text(),'Joe.Root')]")
+    @FindBy(xpath = "//[contains(text(),'Joe.Root')]")
     private WebElement joeRootText;
 
     // Methods for interacting with elements
